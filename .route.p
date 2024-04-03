@@ -1,1 +1,0 @@
-localhost/TP_LABO/api/etudiant/get_etudiant/?user=tplabo&mdp=12345

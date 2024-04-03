@@ -9,6 +9,12 @@ if ((isset($_GET['user']) && $_GET['user'] == 'tplabo' || isset($_GET['user']) &
     && (isset($_GET['mdp']) && $_GET['mdp'] == "12345" || isset($_GET['mdp']) && $_GET['mdp'] == $mdp)
 ) {
     require "./Routes/etudiant.php";
+    require "./Routes/promotion.php";
+    require "./Routes/options.php";
+     require "./Routes/inscription.php";
+     require "./Routes/annee.php";
+     require "./Routes/all.php";
+  
 } else {
 
     $retour["message"] = "accès réfusé";
